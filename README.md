@@ -1,2 +1,7 @@
 # tic-tac-toe-java
-tic-tac-toe made with java. mainly practice for a school project
+Tic-Tac-Toe made with java. Mainly practice for a school project
+
+Planned Features:
+PVP
+Easy AI (random)
+Hard AI (calculated)
