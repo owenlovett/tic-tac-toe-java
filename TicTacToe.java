@@ -17,7 +17,7 @@ public class TicTacToe{
         Scanner k = new Scanner(System.in);
 
         player1turn(board, k);
-
+        player2turn(board, k);
     }
 
     private static void printEXBoard() {
@@ -34,7 +34,7 @@ public class TicTacToe{
     }
 
     private static void player1turn(char[][] board, Scanner k) {
-        System.out.println("Where would you like to place your marker? (Please enter 1-9): ");
+        System.out.println("Player 1: Where would you like to place your marker? (Please enter 1-9): ");
 
         int player1input = k.nextInt();
 
@@ -74,7 +74,7 @@ public class TicTacToe{
     }
 
     private static void player2turn(char[][] board, Scanner k) {
-        System.out.println("Where would you like to place your marker? (Please enter 1-9): ");
+        System.out.println("Player 2: Where would you like to place your marker? (Please enter 1-9): ");
 
         int player2input = k.nextInt();
 
