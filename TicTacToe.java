@@ -4,13 +4,7 @@ public class TicTacToe{
 
     public static void main(String[] args){
 
-        char[][] boardex = {
-            {'1', '|', '2', '|', '3'},
-            {'-', '+', '-', '+', '-'},
-            {'4', '|', '5', '|', '6'},
-            {'-', '+', '-', '+', '-'},
-            {'7', '|', '8', '|', '9'}
-        };
+        printEXBoard();
 
         char[][] board = {
             {' ', '|', ' ', '|', ' '},
@@ -24,6 +18,19 @@ public class TicTacToe{
 
         player1turn(board, k);
 
+    }
+
+    private static void printEXBoard() {
+        System.out.println("Each number on the board below represents its own space.");
+        char[][] boardex = {
+            {'1', '|', '2', '|', '3'},
+            {'-', '+', '-', '+', '-'},
+            {'4', '|', '5', '|', '6'},
+            {'-', '+', '-', '+', '-'},
+            {'7', '|', '8', '|', '9'}
+        };
+
+        printBoard(boardex);
     }
 
     private static void player1turn(char[][] board, Scanner k) {
